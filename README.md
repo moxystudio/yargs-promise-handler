@@ -16,7 +16,7 @@
 [greenkeeper-image]:https://badges.greenkeeper.io/moxystudio/yargs-promise-handler.svg
 [greenkeeper-url]:https://greenkeeper.io
 
-Adds support for promises in yargs handlers and enables composing handlers.
+Adds support for promises to yargs handlers and allows them to be composable.
 
 
 ## Installation

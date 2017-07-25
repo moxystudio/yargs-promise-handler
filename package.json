@@ -1,6 +1,6 @@
 {
   "name": "yargs-promise-handler",
-  "description": "Adds support for promises in yargs handlers and enables composing handlers",
+  "description": "Adds support for promises to yargs handlers and allows them to be composable",
   "version": "1.0.0",
   "keywords": [
     "yargs",
