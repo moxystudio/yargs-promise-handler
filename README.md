@@ -21,14 +21,14 @@ Adds support for promises in yargs handlers and enables composing handlers.
 
 ## Installation
 
-`$ npm install --save yargs-promise-handler`
+`$ npm install yargs-promise-handler --save`
 
 
 ## Why?
 
 `yargs` does [not](https://github.com/yargs/yargs/issues/510) support command handlers that return promises. Users must handle promises and call `process.exit()` manually.
 
-This packages does exactly that under the hood and exposes the original promise under `handler.promise()` to allow handler to be composable.
+This packages does exactly that under the hood and exposes the original promise under `handler.promise()` to allow handlers to be composable.
 
 
 ## Usage
