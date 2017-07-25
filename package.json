@@ -1,0 +1,37 @@
+{
+  "name": "yargs-promise-handler-moxy",
+  "description": "Adds support for promises in yargs handlers and enables composing handlers",
+  "version": "0.0.0",
+  "keywords": [
+    "yargs",
+    "promise",
+    "handler",
+    "compose"
+  ],
+  "author": "André Cruz <andre@moxy.studio>",
+  "homepage": "https://github.com/moxystudio/yargs-promise-handler",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:moxystudio/yargs-promise-handler.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ignore-pattern test/fixtures",
+    "lint:staged": "lint-staged",
+    "test": "jest --env node --coverage",
+    "test:watch": "jest --env node --watch",
+    "posttest": "npm run lint",
+    "precommit": "npm run lint:staged"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-moxy": "^3.0.0",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "p-try": "^1.0.0"
+  }
+}
