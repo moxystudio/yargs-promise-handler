@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --ignore-pattern test/fixtures",
+    "lint": "eslint .",
     "lint:staged": "lint-staged",
     "test": "jest --env node --coverage",
     "test:watch": "jest --env node --watch",
