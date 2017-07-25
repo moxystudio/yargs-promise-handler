@@ -1,7 +1,7 @@
 {
   "name": "yargs-promise-handler-moxy",
   "description": "Adds support for promises in yargs handlers and enables composing handlers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "yargs",
     "promise",
