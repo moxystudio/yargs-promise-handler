@@ -55,7 +55,7 @@ The second argument of `promiseHandler` accepts an options object:
 ## Tests
 
 `$ npm test`   
-`$ npm test:watch` during development
+`$ npm test -- --watch` during development
 
 
 ## License
