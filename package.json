@@ -51,6 +51,6 @@
     "lint-staged": "^7.0.0"
   },
   "dependencies": {
-    "p-try": "^1.0.0"
+    "p-try": "^2.0.0"
   }
 }
