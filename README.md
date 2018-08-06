@@ -18,6 +18,7 @@
 
 Adds support for promises to yargs handlers and allows them to be composable.
 
+NOTE: This module is deprecated because yargs now support async commands!
 
 ## Installation
 
